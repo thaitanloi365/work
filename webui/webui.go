@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/braintree/manners"
+	"github.com/gocraft/web"
 	"github.com/gomodule/redigo/redis"
-	"github.com/thaitanloi365/web"
 	"github.com/thaitanloi365/work"
 	"github.com/thaitanloi365/work/webui/internal/assets"
 )
