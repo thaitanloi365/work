@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/albrow/jobs"
-	"github.com/gocraft/health"
 	"github.com/gomodule/redigo/redis"
+	"github.com/thaitanloi365/health"
 )
 
 var namespace = "jobs"

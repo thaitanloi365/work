@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gocraft/health"
-	"github.com/gocraft/work"
 	"github.com/gomodule/redigo/redis"
+	"github.com/thaitanloi365/health"
+	"github.com/thaitanloi365/work"
 )
 
 var namespace = "bench_test"

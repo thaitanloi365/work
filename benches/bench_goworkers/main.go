@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gocraft/health"
 	"github.com/gomodule/redigo/redis"
 	"github.com/jrallison/go-workers"
+	"github.com/thaitanloi365/health"
 )
 
 func myJob(m *workers.Msg) {

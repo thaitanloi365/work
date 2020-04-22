@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/benmanns/goworker"
-	"github.com/gocraft/health"
 	"github.com/gomodule/redigo/redis"
+	"github.com/thaitanloi365/health"
 )
 
 func myJob(queue string, args ...interface{}) error {
